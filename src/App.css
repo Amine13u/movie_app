@@ -1,0 +1,51 @@
+body {
+  background: #fff linear-gradient(to bottom, #3f567c, #b5ccc6) no-repeat;
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+}
+
+.movie-card {
+  border-radius: 10px;
+  background-color: lightblue;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  height: 600px;
+}
+
+.movies-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.poster {
+  width: 300px;
+}
+
+button {
+  padding: 5px;
+  background-color: #7ea89d;
+  border-radius: 5px;
+  color: #364f77;
+}
+
+button:hover {
+  background-color: #498f7d;
+}
+
+p {
+  font-family: monospace;
+  color: #192e50;
+}
+
+.add-form,
+.filters {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
