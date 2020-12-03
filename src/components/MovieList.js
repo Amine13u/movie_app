@@ -21,6 +21,7 @@ const MovieList = ({ moviesList }) => {
         {moviesList.map((el, i) => (
           <MovieCard
             key={i}
+            id={Math.random()}
             title={el.title}
             description={el.description}
             posterUrl={el.posterUrl}
