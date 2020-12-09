@@ -3,9 +3,9 @@ import ReactStars from "react-rating-stars-component";
 
 import { Link } from "react-router-dom";
 
-const MovieCard = ({ title, description, posterUrl, rate }) => {
+const MovieCard = ({ title, description, posterUrl, rate, id }) => {
   return (
-    <Link style={{ textDecoration: "none" }} to={`/trailer/${title}`}>
+    <Link style={{ textDecoration: "none" }} to={`/trailer/${id}`}>
       <div className="movie-card">
         <img className="poster" src={posterUrl} alt={title} />
         <ReactStars

@@ -83,7 +83,7 @@ function App() {
       <Switch>
         <Route
           exact
-          path={"/trailer/:title"}
+          path={"/trailer/:id"}
           render={(props) => <Trailer moviesList={listOfMovies} {...props} />}
         />
       </Switch>
